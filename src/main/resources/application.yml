@@ -1,0 +1,12 @@
+spring:
+  datasource-oracle:
+    jdbc-url: jdbc:oracle:thin:@cint.iptime.org:31521:XE
+    username: ldj1028
+    password: dlaehdwns310
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+
+  datasource-maria:
+    jdbc-url: jdbc:mariadb://cint.iptime.org:33306/jays_test
+    username: ldj1028
+    password: dlaehdwns310
+    driver-class-name: org.mariadb.jdbc.Driver
