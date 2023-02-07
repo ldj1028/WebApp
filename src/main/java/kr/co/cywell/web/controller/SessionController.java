@@ -21,7 +21,7 @@ public class SessionController {
         msg += "Session Counter : " + session.getAttribute("session_counter") + "</br>";
         msg += "Session ID : " + session.getId() + "</br>";
         msg += "Session Creation Time : " + session.getCreationTime() + "</br>";
-        return "Session Counter : " + session.getAttribute("session_counter");
+        return msg;
     }
 
 }
