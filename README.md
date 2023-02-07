@@ -10,7 +10,7 @@
       + MSSQL
       + MySQL
       
-- ### Java Option
+- ### Java Option (WAS에 적용)
    ``` shell
    -Dwebapp.datasource.oracle=<DS Name>
    -Dwebapp.datasource.maria=<DS Name>
