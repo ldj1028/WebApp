@@ -4,22 +4,10 @@
 - ### Request Url List
   + <b>/session</b> : 세션테스트
   + <b>/ds</b> : WAS의 DataSource 테스트
-    + 지원하는 DB
-      + Oracle
-      + MariaDB
-      + MSSQL
-      + MySQL
       
 - ### Java Option (WAS에 적용)
    ``` shell
-   -Dwebapp.datasource.oracle=<DS Name>
-   -Dwebapp.datasource.maria=<DS Name>
-   -Dwebapp.datasource.mssql=<DS Name>
-   -Dwebapp.datasource.mysql=<DS Name>
+   -Dwebapp.datasource.list=<DS Name>,<DS Name>,......,<DS Name>
    -------------------------------------
    ex)
-   -Dwebapp.datasource.oracle=oracleDS
-   -Dwebapp.datasource.maria=mariaDS
-   -Dwebapp.datasource.mssql=mssqlDS
-   -Dwebapp.datasource.mysql=mysqlDS
-   ```
+   -Dwebapp.datasource.list=oracleDS,mariaDS,mssqlDS,mysqlDS
