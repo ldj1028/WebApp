@@ -13,7 +13,7 @@ public class DBConfig {
         bDSName = (System.getProperty("webapp.datasource.list") != null)?true:false;
     }
 
-    public String connectionDB() throws SQLException{
+    public String connDS() throws SQLException{
         String msg = "";
         boolean bSuccess = false;
         if(bDSName){

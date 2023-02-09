@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class DbController {
 
     @GetMapping("/ds")
-    public String connDS() {
+    public String checkDS() {
         DBConfig dbc = new DBConfig();
         String msg = "";
         try {
-            msg = dbc.connectionDB();
+            msg = dbc.connDS();
         } catch (Exception e) {
             e.printStackTrace();
         }
